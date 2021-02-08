@@ -35,7 +35,7 @@ python bot.py
 ```
 
 ### Commands
-`<input>` can be an incomplete string/name (acting like a search), the commands use sqlalchemy object query's `like`
+`<input>` can be an incomplete string/name (acting like a search), the commands use sqlalchemy object query's `like`, querying via the object's name and getting the first result
 
 ```
 !character <input>
