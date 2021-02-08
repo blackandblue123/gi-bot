@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"discord.py" = "*"
+pandas = "*"
+sqlalchemy = "==1.4.0b1"
+xlrd = "*"
+openpyxl = "*"
+tweepy = "*"
+asyncio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
